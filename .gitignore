@@ -1,0 +1,24 @@
+# Ignore all directories except CAF framework files
+/*
+!/README.md
+!/.claude/
+!/.gitignore
+!/r/
+
+# But re-include these patterns for the allowed directories
+.claude/**
+r/**
+
+# Ignore node_modules if any
+node_modules/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
